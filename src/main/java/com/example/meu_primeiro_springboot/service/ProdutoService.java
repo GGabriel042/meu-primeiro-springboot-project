@@ -1,6 +1,5 @@
 package com.example.meu_primeiro_springboot.service;
 
-import java.lang.StackWalker.Option;
 import java.util.List;
 import java.util.Optional;
 
