@@ -1,8 +1,6 @@
 package com.example.meu_primeiro_springboot.service;
 
 import java.util.List;
-import java.util.Optional;
-
 import org.springframework.stereotype.Service;
 
 import com.example.meu_primeiro_springboot.exception.RecursoNaoEncontradoException;
