@@ -4,10 +4,13 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 
 import com.example.meu_primeiro_springboot.model.Usuario;
 import com.example.meu_primeiro_springboot.repository.UsuarioRepository;
 
+
+@Service
 public class UsuarioDetailsService implements UserDetailsService {
     
     private final UsuarioRepository usuarioRepository;
